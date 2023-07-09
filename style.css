@@ -162,4 +162,34 @@ nav{
 
  /* end of contact section ----------------- */
 
- 
+ .blogs-container{
+    background: #888;
+ }
+
+ .blog-heading{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 50px ;
+    color: #fff;
+ }
+
+ .blogs{
+    display: flex;
+ }
+ .blog-item {
+    background: #fff;
+    padding: 20px;
+ }
+ .blogs .midil-blog {
+    margin: 0 20px ;
+ }
+ .blogs .blog-item img{
+    width: 100%;
+ }
+ .blogs .blog-item h2{
+    margin: 20px 0;
+ }
+ .blog-btn{
+    background: var(--bgColor);
+    color:#fff ;
+}
