@@ -5,9 +5,10 @@
     list-style: none; 
     text-decoration: none;
     transition: 0.5s;
+    font-family: arial;
 }
 :root{
-    --bgColor: orange;
+    --bgColor: #f94c30;
 }
 .container{
     width: 80%;
@@ -19,11 +20,13 @@
     border: none;
     font-size: 15px;
     cursor: pointer;
+    border-radius: 2px;
 }
 /* basic and common css style  ------------------- */
 
 nav{
-    background: #777;
+    background: #777; 
+    width: 100%;
 }
 .navbar{
     
@@ -45,6 +48,32 @@ nav{
 
 /* end of navbar css style ------- */
 
-.hero{
-    
+.hero{ 
+    background-image: linear-gradient(to left ,rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.555)), url('./image/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
 }
+
+ .hero h1{
+    font-size: 60px;
+    color: #fff;
+ }
+ .hero span{
+    color: var(--bgColor);
+ }
+ .hero p{
+    color: #ffffff;
+    margin: 15px 0;
+    line-height: 1.5;
+ }
+ .hero-text{
+    width: 50%;
+ }
+ .discobverUs-btn{
+    background: var(--bgColor);
+    color: #fff;
+ }
