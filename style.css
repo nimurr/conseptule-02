@@ -85,8 +85,9 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
-    display: flex;
+    height: 100vh;
+    /* display: flex; */
+    padding-top: 30px;
     align-items: center;
  }
  .anilasis-content{
@@ -140,5 +141,25 @@ nav{
  }
 
  /* end of anilasis section ---------------------- */
+
+ .contact{
+    background: var(--bgColor);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    color: #fff;
+    margin-top: -100px;
+ }
+ .contact img{
+    width: 50px;
+ }
+ .contact p{
+    margin: 0px 10px;
+    width: 60%;
+ }
+
+ /* end of contact section ----------------- */
 
  
