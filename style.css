@@ -163,7 +163,7 @@ nav{
  /* end of contact section ----------------- */
 
  .blogs-container{
-    background: #888;
+    background: #bebebe;
  }
 
  .blog-heading{
@@ -172,9 +172,13 @@ nav{
     font-size: 50px ;
     color: #fff;
  }
-
+ .blog-heading span{
+   color: var(--bgColor);
+ }
+ 
  .blogs{
     display: flex;
+    
  }
  .blog-item {
     background: #fff;
@@ -182,6 +186,7 @@ nav{
  }
  .blogs .midil-blog {
     margin: 0 20px ;
+    
  }
  .blogs .blog-item img{
     width: 100%;
@@ -191,5 +196,50 @@ nav{
  }
  .blog-btn{
     background: var(--bgColor);
-    color:#fff ;
+    color: #fff;
+    
+}
+
+/* end of blog section ------------ */
+
+footer {
+   background-image:linear-gradient(#000000e8, #000000ea), url('./image/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.footer{
+   display: flex;
+   /* align-items: center; */
+   justify-content: space-between;
+}
+.footer-item{
+   width: 300px;
+}
+.footer-item h2{
+   margin-bottom: 20px;
+}
+.footer-item p{
+   margin: 15px 0;
+   line-height: 1.5;
+}
+.footer-item ul li{
+   margin: 10px 0;
+   display: flex;
+   align-items: center;
+   line-height: 1.5;
+   cursor: pointer;
+   
+}
+.footer-item ul i{
+   margin-right: 15px;
+   font-size: 25px;
+   cursor: pointer;
+}
+.footer-item ul i:hover{
+   color: var(--bgColor);
 }
