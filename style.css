@@ -77,3 +77,68 @@ nav{
     background: var(--bgColor);
     color: #fff;
  }
+
+ /* end of hero section  ---------------------------*/
+
+ .anilasis{
+    background-image:linear-gradient(#000000e8, #000000ea), url('./image/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+ }
+ .anilasis-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 40px;
+ }
+.anilasis-item{
+    color: #fff;
+}
+.anilasis-item h2{
+    margin: 20px 0;
+}
+.anilasis-item ol{
+    margin: 20px;
+    
+}
+.anilasis-item ol li{
+    list-style: decimal;
+    line-height: 1.5;
+}
+.anilasis-item .anilasis-user{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.anilasis-item .anilasis-user h5{
+    line-height: 1.5;
+}
+.anilasis-item .anilasis-user img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+ .anilasis-box-item {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    text-align: center;
+ }
+ .anilasis-box-item .anilasis-box{
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+ }
+ .anilasis-box-item .anilasis-box img{
+    height: 100px;
+    margin-bottom: 20px;
+ }
+
+ /* end of anilasis section ---------------------- */
+
+ 
